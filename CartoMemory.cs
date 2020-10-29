@@ -80,11 +80,15 @@ namespace LiveSplit.Carto {
                             if(dict.ContainsKey(key)) {
                                 if(!dict[key].Equals(value)) {
                                     dict[key] = value;
-                                    return remainingSplits.Split("Var", key + "_" + value);
+                                    if(remainingSplits.Split("Var", key + "_" + value)) {
+                                        return true;
+                                    }
                                 }
                             } else {
                                 dict.Add(key, value);
-                                return remainingSplits.Split("Var", key + "_" + value);
+                                if(remainingSplits.Split("Var", key + "_" + value)) {
+                                    return true;
+                                }
                             }
                         }
                     }
