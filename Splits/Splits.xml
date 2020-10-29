@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Splits>
+  <Split name="Var_chapter_2" text="Chapter 1"/>
+  <Split name="Var_chapter_3" text="Chapter 2"/>
+  <Split name="Var_chapter_4" text="Chapter 3"/>
+  <Split name="Var_chapter_5" text="Chapter 4"/>
+  <Split name="Var_chapter_6" text="Chapter 5"/>
+  <Split name="Var_chapter_7" text="Chapter 6"/>
+  <Split name="Var_chapter_8" text="Chapter 7"/>
+  <Split name="Var_chapter_9" text="Chapter 8"/>
+  <Split name="Var_chapter_10" text="Chapter 9"/>
+  <Split name="Var_chapter_11" text="Chapter 10"/>
+</Splits>

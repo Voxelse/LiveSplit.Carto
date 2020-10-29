@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Presets>
+  <Preset name="Any%">
+    <Split name="Var_chapter_2"/>
+    <Split name="Var_chapter_3"/>
+    <Split name="Var_chapter_4"/>
+    <Split name="Var_chapter_5"/>
+    <Split name="Var_chapter_6"/>
+    <Split name="Var_chapter_7"/>
+    <Split name="Var_chapter_8"/>
+    <Split name="Var_chapter_9"/>
+    <Split name="Var_chapter_10"/>
+    <Split name="Var_chapter_11"/>
+  </Preset>
+</Presets>
