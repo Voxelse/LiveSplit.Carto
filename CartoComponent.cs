@@ -9,7 +9,6 @@ namespace LiveSplit.Carto {
         public CartoComponent(LiveSplitState state) : base(state) {
             memory = new CartoMemory(logger);
             settings = new TreeSettings(state, Start, Reset, Options);
-            settings.SetSettings(state.Run.AutoSplitterSettings);
         }
     }
 }
